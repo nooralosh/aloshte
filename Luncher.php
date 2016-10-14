@@ -134,8 +134,9 @@ function processMessage($message) {
 
 به ربات ما امتیاز بدید  👈        [⭐️@createpmresan_bot⭐️](https://telegram.me/storebot?start=createpmresan_bot)
 عضو کانال ما شوید  👈        [⭐️@createpmresanchannel⭐️](https://telegram.me/createpmresanchannel)
+ارتباط با ادمین   👈        [⭐️@oYSoFAdmin⭐️](https://telegram.me/oYSoFAdminl)
 
-🤖 @CliApi',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @oYSoFAdmin',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -257,7 +258,7 @@ $output = curl_exec($ch);
 
 هر نفر = یک ربات ✖️
 
-🚀 @cliapi"));
+🚀 @oYSoFAdmin"));
       }
     }
       
@@ -333,7 +334,7 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => " شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 هر نفر = یک ربات ✖️
- @CliApi"));
+ @oYSoFAdmin"));
       }
 
     }
