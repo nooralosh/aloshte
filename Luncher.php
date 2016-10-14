@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '234120557:AAFzEOX3MPQGseAbdYGmD4Lfon9JtpzC1sY');
+define('BOT_TOKEN', '259833926:AAEkLrM2zE_muCYiERVw6OzxlXFXd9W5QuI');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 159887854;
+    $admin = 248532212;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,8 +132,8 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️Massenger⭐️](https://telegram.me/storebot?start=Messengers_BOT)
-عضو کانال ما شوید  👈        [⭐️create_antispam_bot⭐️](https://telegram.me/create_antispam_bot)
+به ربات ما امتیاز بدید  👈        [⭐️@createpmresan_bot⭐️](https://telegram.me/storebot?start=createpmresan_bot)
+عضو کانال ما شوید  👈        [⭐️@createpmresanchannel⭐️](https://telegram.me/createpmresanchannel)
 
 🤖 @CliApi',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
@@ -161,8 +161,8 @@ $pmembersid= explode("\n",$txxt);
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>Massenger Bot</b>
 <b>ver. 1.0</b>
-<code>Coded By</code> @cliapi
-@create_antispam_bot 2016©","parse_mode"=>"html"));
+<code>Coded By</code> @oYSoF
+@"createpmresanchannel,"parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
@@ -224,7 +224,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tglandmassengerbot
+ https://telegram.me/storebot?start=createpmresan_bot
 .";
     
     $bot_url    = "https://api.telegram.org/bot234120557:AAFzEOX3MPQGseAbdYGmD4Lfon9JtpzC1sY/"; 
@@ -306,7 +306,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=Messengers_BOT
+ https://telegram.me/storebot?start=createpmresan_bot
 .";
     
     $bot_url    = "https://api.telegram.org/bot234120557:AAFzEOX3MPQGseAbdYGmD4Lfon9JtpzC1sY/"; 
